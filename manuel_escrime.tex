@@ -1,4 +1,4 @@
-\documentclass[10pt, a4paper]{book}
+\documentclass[10pt, a4paper, oneside]{book}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -13,9 +13,9 @@
 \usepackage[nottoc]{tocbibind}
 \usepackage{graphicx,subfig,float}
 \usepackage[multiple]{footmisc}
-% \usepackage[backend=bibtex, citestyle=numeric-comp, sorting=nyt, sortcites=true]{biblatex}
-% \input{bibphys.def}
-% sorting=none
+\usepackage{authblk}
+\usepackage[backend=bibtex8, citestyle=numeric-comp, maxbibnames=99, sorting=nyt,
+			sortcites=true, firstinits=true, sorting=none]{biblatex}
 
 \usepackage{amsmath,amsfonts,amssymb}
 
@@ -39,12 +39,18 @@
 \pagestyle{plain}
 \graphicspath{{images/}}
 
-% \addbibresource{bibfile}
+\input{bibphys.def}
+\addbibresource{manuel_escrime}
+\addbibresource{escrime}
 
 \theorembodyfont{}
 \theoremstyle{break}
 \theoremprework{\medskip}
 \newtheorem{exercice}{Exercice}[chapter]
+
+\newcommand{\A}[0]{\textbf{A}\xspace}
+\newcommand{\D}[0]{\textbf{D}\xspace}
+\newcommand{\alt}[1]{[\emph{#1}]}
 
 \title{Manuel d'escrime}
 \author{Harold Erbin}
@@ -58,13 +64,23 @@
 \tableofcontents
 \newpage
 
-% travailler le souffle et les hanches
+\section{Conventions}
 
+Dans les exercices chaque point correspond à un temps. Ainsi même si aucune conjonction n'est précisée entre deux phrases, il faut comprendre que les deux actions doivent avoir lieu en même temps. Exemple : « faire un pas à droite. Porter un estoc. » signifie que l'estoc a lieu en même temps que le pas à droite.
 
+Les crochets servent à indiquer comment arrêter l'exercice à un temps donné.
+
+\A désigne l'attaquant (c'est-à-dire le premier à agir) et \D le défenseur.
+
+\part{Escrime médiévale}
+
+\input{chapters/pertuisane}
+
+\part{Autres}
 
 \input{chapters/katori}
 
 
-% \printbibliography[heading=bibintoc]
+\printbibliography[heading=bibintoc]
 
 \end{document}
