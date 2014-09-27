@@ -1,4 +1,4 @@
-\documentclass[10pt, a4paper]{article}
+\documentclass[10pt, a4paper]{book}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -28,6 +28,7 @@
 	pdfcreator={PDFLaTeX}, pdfauthor={Harold Erbin}
 ]{hyperref}
 \usepackage[all]{hypcap}
+\usepackage{ntheorem}
 
 \hypersetup{
 	pdftitle={Manuel d'escrime},
@@ -39,6 +40,11 @@
 \graphicspath{{images/}}
 
 % \addbibresource{bibfile}
+
+\theorembodyfont{}
+\theoremstyle{break}
+\theoremprework{\medskip}
+\newtheorem{exercice}{Exercice}[chapter]
 
 \title{Manuel d'escrime}
 \author{Harold Erbin}
@@ -52,8 +58,13 @@
 \tableofcontents
 \newpage
 
+% travailler le souffle et les hanches
 
 
-\printbibliography[heading=bibintoc]
+
+\input{chapters/katori}
+
+
+% \printbibliography[heading=bibintoc]
 
 \end{document}
