@@ -1,0 +1,59 @@
+\documentclass[10pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,textcomp}
+\usepackage[french]{babel}
+\usepackage{csquotes}
+
+\usepackage[top=4cm,bottom=4cm,left=3.5cm,right=3.5cm]{geometry}
+% default top=4.5cm,bottom=4cm,left=4.5cm,right=4.5cm
+
+\usepackage{eurosym,xspace}
+\usepackage[nottoc]{tocbibind}
+\usepackage{graphicx,subfig,float}
+\usepackage[multiple]{footmisc}
+% \usepackage[backend=bibtex, citestyle=numeric-comp, sorting=nyt, sortcites=true]{biblatex}
+% \input{bibphys.def}
+% sorting=none
+
+\usepackage{amsmath,amsfonts,amssymb}
+
+% load ntheorem after hyperref in principle
+\usepackage{licence}
+
+% hyperfootnotes=false
+\usepackage[pdftex, colorlinks=true, breaklinks=true,
+	urlcolor=blue, linkcolor=blue, citecolor=red,
+	pdfcreator={PDFLaTeX}, pdfauthor={Harold Erbin}
+]{hyperref}
+\usepackage[all]{hypcap}
+
+\hypersetup{
+	pdftitle={Manuel d'escrime},
+	% pdfkeywords={Mots clés PDF},
+	% pdfsubject={Sujet PDF}
+}
+
+\pagestyle{plain}
+\graphicspath{{images/}}
+
+% \addbibresource{bibfile}
+
+\title{Manuel d'escrime}
+\author{Harold Erbin}
+
+\begin{document}
+\maketitle
+\vspace{\stretch{4}}
+\licence{lal}{2014}
+\version
+\newpage
+\tableofcontents
+\newpage
+
+
+
+\printbibliography[heading=bibintoc]
+
+\end{document}
