@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2401"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="coup_cranien.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.1">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="287.82602"
+     inkscape:cy="874.77673"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:window-maximized="1" />
+  <defs
+     id="defs2403">
+    <inkscape:perspective
+       id="perspective2409"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <metadata
+     id="metadata2406">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Calque 1">
+    <path
+       d="m 233.57143,170.93361 a 57.142857,57.142857 0 1 1 -114.28571,0 57.142857,57.142857 0 1 1 114.28571,0 z"
+       sodipodi:ry="57.142857"
+       sodipodi:rx="57.142857"
+       sodipodi:cy="170.93361"
+       sodipodi:cx="176.42857"
+       id="path2983"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path2987"
+       d="m 176.42857,113.79075 -57.17744,57.17742"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 178.29192,170.93361 a 1.8633509,1.8633509 0 1 1 -3.7267,0 1.8633509,1.8633509 0 1 1 3.7267,0 z"
+       sodipodi:ry="1.8633509"
+       sodipodi:rx="1.8633509"
+       sodipodi:cy="170.93361"
+       sodipodi:cx="176.42857"
+       id="path2989"
+       style="fill:#000000;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
+       sodipodi:type="arc" />
+    <g
+       id="g3768"
+       ns0:preamble="/home/harold/texmf/inkscape.tex"
+       ns0:text="\\textbf{D}"
+       transform="translate(-39.642857,39.642857)">
+      <defs
+         id="defs3770">
+        <g
+           id="g3772">
+          <symbol
+             id="textext-eecd7edf-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path3775"
+               d=""
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-eecd7edf-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path3778"
+               d="m 8.140625,-3.359375 c 0,-2.1875 -1.484375,-3.484375 -3.46875,-3.484375 l -4.28125,0 0,0.46875 1.078125,0 0,5.90625 -1.078125,0 0,0.46875 L 4.6875,0 C 6.65625,0 8.140625,-1.21875 8.140625,-3.359375 z M 6.671875,-3.375 c 0,1.09375 -0.109375,1.625 -0.4375,2.0625 -0.46875,0.6875 -1.34375,0.84375 -1.953125,0.84375 l -1.453125,0 0,-5.90625 1.453125,0 c 0.65625,0 1.484375,0.1875 1.96875,0.890625 0.34375,0.515625 0.421875,1.1875 0.421875,2.109375 z"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-eecd7edf-2">
+        <g
+           id="g3781"
+           style="fill:#000000;fill-opacity:1">
+          <use
+             id="use3783"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-eecd7edf-1"
+             width="744.09448"
+             height="1052.3622" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(-40.357143,-9.6428572)"
+       ns0:text="1"
+       ns0:preamble="/home/harold/texmf/inkscape.tex"
+       id="g3821">
+      <defs
+         id="defs3823">
+        <g
+           id="g3825">
+          <symbol
+             overflow="visible"
+             id="textext-379bee30-0"
+             style="overflow:visible">
+            <path
+               style="stroke:none"
+               d=""
+               id="path3828"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="textext-379bee30-1"
+             style="overflow:visible">
+            <path
+               style="stroke:none"
+               d="m 4.171875,0 0,-0.3125 -0.3125,0 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 l 0,-5.59375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 l 0,0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 l 0,5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 l -0.3125,0 0,0.3125 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 z"
+               id="path3831"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-379bee30-2">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g3834">
+          <use
+             xlink:href="#textext-379bee30-1"
+             x="223.43201"
+             y="134.765"
+             id="use3836"
+             width="744.09448"
+             height="1052.3622" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3894"
+       ns0:preamble="/home/harold/texmf/inkscape.tex"
+       ns0:text="2"
+       transform="translate(-98.928572,43.571429)">
+      <defs
+         id="defs3896">
+        <g
+           id="g3898">
+          <symbol
+             id="textext-17c220bb-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path3901"
+               d=""
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-17c220bb-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path3904"
+               d="m 4.46875,-1.734375 -0.234375,0 C 4.171875,-1.4375 4.109375,-1 4,-0.84375 3.9375,-0.765625 3.28125,-0.765625 3.0625,-0.765625 l -1.796875,0 1.0625,-1.03125 c 1.546875,-1.375 2.140625,-1.90625 2.140625,-2.90625 0,-1.140625 -0.890625,-1.9375 -2.109375,-1.9375 -1.125,0 -1.859375,0.921875 -1.859375,1.8125 0,0.546875 0.5,0.546875 0.53125,0.546875 0.171875,0 0.515625,-0.109375 0.515625,-0.53125 0,-0.25 -0.1875,-0.515625 -0.53125,-0.515625 -0.078125,0 -0.09375,0 -0.125,0.015625 0.21875,-0.65625 0.765625,-1.015625 1.34375,-1.015625 0.90625,0 1.328125,0.8125 1.328125,1.625 C 3.5625,-3.90625 3.078125,-3.125 2.515625,-2.5 l -1.90625,2.125 C 0.5,-0.265625 0.5,-0.234375 0.5,0 l 3.703125,0 z"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-17c220bb-2">
+        <g
+           id="g3907"
+           style="fill:#000000;fill-opacity:1">
+          <use
+             id="use3909"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-17c220bb-1"
+             width="744.09448"
+             height="1052.3622" />
+        </g>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1,3;stroke-dashoffset:0"
+       d="m 147.83985,142.37946 29.88891,29.88891"
+       id="path3948"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
