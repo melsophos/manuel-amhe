@@ -19,6 +19,8 @@
 
 \usepackage{amsmath,amsfonts,amssymb}
 
+% \usepackage{makeidx}
+
 % load ntheorem after hyperref in principle
 \usepackage{licence}
 
@@ -42,8 +44,11 @@
 \input{bibphys.def}
 \addbibresource{manuel_escrime}
 
+% \makeindex
+
 \theorembodyfont{}
 \theoremstyle{break}
+\newtheorem{definition}{Définition}[chapter]
 \theoremprework{\medskip}
 \newtheorem{exercice}{Exercice}[chapter]
 
@@ -86,5 +91,6 @@
 \input{appendix/fabrication}
 
 \printbibliography[heading=bibintoc]
+% \printindex
 
 \end{document}
