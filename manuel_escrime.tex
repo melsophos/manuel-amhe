@@ -41,6 +41,12 @@
 \pagestyle{plain}
 \graphicspath{{images/}}
 
+% \renewcommand{\Affilfont}{\small}
+\newcommand{\email}[1]{\thanks{\href{mailto:#1}{\nolinkurl{#1}}}}
+% \sisetup{group-separator = {,}, separate-uncertainty=true}
+% enable non-breakable space
+\DeclareUnicodeCharacter{00A0}{~}
+
 \input{bibphys.def}
 \addbibresource{manuel_escrime}
 
@@ -49,7 +55,10 @@
 \input{defs}
 
 \title{Arts martiaux historiques – Manuel}
-\author{Harold Erbin}
+
+\author[*]{Harold Erbin\email{harold.erbin@gmail.com}}
+\affil[*]{Chapitre des armes, Paris, France}
+\affil[*]{Club d'escrime ancienne, École Normale Supérieure, Paris, France}
 
 % index: termes anglais, allemands, etc.
 
@@ -71,6 +80,7 @@
 
 \input{chapters/mains_nues}
 \input{chapters/epee_longue}
+\input{chapters/epee_bocle}
 \input{chapters/pertuisane}
 \input{chapters/lance}
 
