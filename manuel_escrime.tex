@@ -1,5 +1,8 @@
 \documentclass[10pt, a4paper, oneside]{book}
 
+\newif\ifprivate
+\privatetrue
+
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern,textcomp}
@@ -63,13 +66,14 @@
 % index: termes anglais, allemands, etc.
 
 \begin{document}
+\pagenumbering{roman}
 \maketitle
-\vspace{\stretch{4}}
-\licence{lal}{2014–2015}
+
+\pagenumbering{arabic}
+\licence{lal}{2012–2015}
 \version
-\newpage
+
 \tableofcontents
-\newpage
 
 
 \input{chapters/introduction}
@@ -89,15 +93,19 @@
 \part{Autres}
 
 \input{chapters/close_combat}
-\input{chapters/katori}
+\ifprivate
+	\input{chapters/katori}
+\fi
 
 \appendix
 
 \part{Appendices}
 
 \input{appendix/traites}
-\input{appendix/fabrication}
-\input{appendix/materiel}
+\ifprivate
+	\input{appendix/fabrication}
+	\input{appendix/materiel}
+\fi
 
 \printbibliography[heading=bibintoc]
 % \printindex
