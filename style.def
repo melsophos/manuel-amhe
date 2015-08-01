@@ -1,0 +1,11 @@
+\ProvidesFile{style.def}
+
+\renewbibmacro*{in:}{}
+
+\DeclareFieldFormat{url}{\newline\mkbibacro{URL}\addcolon\space\url{#1}}
+
+\DeclareFieldFormat{doi}{%
+  \newline\mkbibacro{DOI}\addcolon\space
+  \ifhyperref
+    {\href{http://dx.doi.org/#1}{\nolinkurl{#1}}}
+    {\nolinkurl{#1}}}

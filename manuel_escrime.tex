@@ -1,8 +1,5 @@
 \documentclass[10pt, a4paper, oneside]{book}
 
-\newif\ifprivate
-\privatetrue
-
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern,textcomp}
@@ -50,7 +47,8 @@
 % enable non-breakable space
 \DeclareUnicodeCharacter{00A0}{~}
 
-\input{bibphys.def}
+% TODO: améliorer le style
+\input{style.def}
 \addbibresource{manuel_escrime}
 
 \makeindex
@@ -93,9 +91,6 @@
 \part{Autres}
 
 \input{chapters/close_combat}
-\ifprivate
-	\input{chapters/katori}
-\fi
 
 \appendix
 
@@ -104,10 +99,8 @@
 \input{appendix/traites}
 \input{appendix/glossaire}
 \input{appendix/ateliers}
-\ifprivate
-	\input{appendix/fabrication}
-	\input{appendix/materiel}
-\fi
+\input{appendix/fabrication}
+\input{appendix/materiel}
 
 \printbibliography[heading=bibintoc]
 \printindex
