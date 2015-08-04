@@ -62,9 +62,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="578.24813"
-     inkscape:cy="932.67438"
+     inkscape:zoom="1.4"
+     inkscape:cx="332.59609"
+     inkscape:cy="833.32742"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -89,7 +89,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -97,30 +97,27 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <g
-       id="g4387">
-      <text
-         sodipodi:linespacing="125%"
-         id="text4136"
-         y="42.161674"
-         x="336.37137"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="42.161674"
-           x="336.37137"
-           id="tspan4138"
-           sodipodi:role="line">A lance un oberhau</tspan></text>
-      <rect
-         y="29.147928"
-         x="328.92856"
-         height="18.571428"
-         width="111.42857"
-         id="rect4542"
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="336.37137"
+       y="42.161674"
+       id="text4136"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4138"
+         x="336.37137"
+         y="42.161674">A lance un oberhau</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4542"
+       width="111.42857"
+       height="18.571428"
+       x="328.92856"
+       y="29.147928" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        x="213.57143"
        y="40.219345"
        id="text4195"
@@ -131,7 +128,7 @@
          y="40.219345" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        x="481.68854"
        y="152.34668"
        id="text4208"
@@ -142,7 +139,7 @@
          y="152.34668">D ne fait rien</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        x="390.73532"
        y="151.37744"
        id="text4212"
@@ -153,7 +150,7 @@
          y="151.37744">liage</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        x="250.51996"
        y="152.34668"
        id="text4216"
@@ -164,26 +161,27 @@
          y="152.34668">A feinte</tspan></text>
     <g
        id="g4300"
-       transform="translate(-0.73740346,-13.029264)">
+       transform="translate(-0.73740346,-13.029264)"
+       style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">
       <path
          id="path4224"
          d="M 238.57143,197.36221 387.14286,125.93363"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
          inkscape:connector-curvature="0" />
       <path
          id="path4204"
          d="m 387.14286,125.93363 0,71.42858"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
          inkscape:connector-curvature="0" />
       <path
          inkscape:connector-curvature="0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 387.14286,125.93363 148.57143,71.42858"
          id="path4226" />
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        x="193.57143"
        y="325.67703"
        id="text4272"
@@ -194,7 +192,7 @@
          y="325.67703">D ne fait rien</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        x="370.71426"
        y="325.67703"
        id="text4276"
@@ -204,185 +202,161 @@
          x="370.71426"
          y="325.67703">D dévie</tspan></text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.10747731px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 384.64284,47.719357 0,41.613582"
        id="path4296"
        inkscape:connector-curvature="0" />
-    <g
-       id="g4382">
-      <text
-         sodipodi:linespacing="125%"
-         id="text4194"
-         y="103.87744"
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="289.85516"
+       y="103.87744"
+       id="text4194"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4196"
          x="289.85516"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="103.87744"
-           x="289.85516"
-           id="tspan4196"
-           sodipodi:role="line">A tourne son poignet (coup plongeant)</tspan></text>
-      <rect
-         y="89.332939"
-         x="282.11975"
-         height="23.571428"
-         width="208.57143"
-         id="rect4298"
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
-    <g
-       id="g4376">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         y="103.87744">A tourne son poignet (coup plongeant)</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4298"
+       width="208.57143"
+       height="23.571428"
+       x="282.11975"
+       y="89.332939" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4234"
+       y="197.8611"
+       x="238.50313"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="197.8611"
          x="238.50313"
-         y="197.8611"
-         id="text4234"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4236"
-           x="238.50313"
-           y="197.8611">A contourne la bocle et l'épée</tspan><tspan
-           sodipodi:role="line"
-           x="238.50313"
-           y="210.3611"
-           id="tspan4238">estoc poitrine</tspan></text>
-      <rect
-         y="184.33295"
-         x="154.2439"
-         height="31.31473"
-         width="167.18025"
-         id="rect4305"
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
-    <g
-       id="g4365">
-      <text
-         sodipodi:linespacing="125%"
-         id="text4240"
-         y="198.26152"
+         id="tspan4236"
+         sodipodi:role="line">A contourne la bocle et l'épée</tspan><tspan
+         id="tspan4238"
+         y="210.3611"
+         x="238.50313"
+         sodipodi:role="line">estoc poitrine</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4305"
+       width="167.18025"
+       height="31.31473"
+       x="154.2439"
+       y="184.33295" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="504.80826"
+       y="198.26152"
+       id="text4240"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4242"
          x="504.80826"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="198.26152"
-           x="504.80826"
-           id="tspan4242"
-           sodipodi:role="line">A estoque D</tspan></text>
-      <rect
-         y="184.33295"
-         x="499.41913"
-         height="21.071428"
-         width="71.115555"
-         id="rect4311"
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.55466992;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
-    <g
-       id="g4370">
-      <text
-         sodipodi:linespacing="125%"
-         id="text4228"
-         y="197.8611"
+         y="198.26152">A estoque D</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4311"
+       width="71.115555"
+       height="21.071428"
+       x="499.41913"
+       y="184.33295" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="385.93509"
+       y="197.8611"
+       id="text4228"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4230"
          x="385.93509"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="197.8611"
-           x="385.93509"
-           id="tspan4230"
-           sodipodi:role="line">A contourne la bocle</tspan><tspan
-           id="tspan4232"
-           y="210.3611"
-           x="385.93509"
-           sodipodi:role="line">estoc ventre</tspan></text>
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.49701759;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect4313"
-         width="114.71652"
-         height="31.31473"
-         x="329.04718"
-         y="184.33295" />
-    </g>
-    <g
-       id="g4350"
-       transform="translate(-31.168773,-1.1968422)">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="164.79041"
-         y="287.53131"
-         id="text4321"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4323"
-           x="164.79041"
-           y="287.53131">A estoque D</tspan></text>
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.55466992;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect4325"
-         width="71.115555"
-         height="21.071428"
-         x="159.40128"
-         y="273.60272" />
-    </g>
-    <g
-       id="g4360"
-       transform="translate(24.942688,-1.3701515)">
-      <text
-         sodipodi:linespacing="125%"
-         id="text4327"
-         y="287.70462"
-         x="404.85391"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="287.70462"
-           x="404.85391"
-           id="tspan4329"
-           sodipodi:role="line">A estoque D</tspan></text>
-      <rect
-         y="273.77603"
-         x="399.46478"
-         height="21.071428"
-         width="71.115555"
-         id="rect4331"
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.55466992;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
-    <g
-       id="g4355"
-       transform="translate(1.3417969e-5,-1.3789062e-5)">
-      <text
-         sodipodi:linespacing="125%"
-         id="text4244"
+         y="197.8611">A contourne la bocle</tspan><tspan
+         sodipodi:role="line"
+         x="385.93509"
+         y="210.3611"
+         id="tspan4232">estoc ventre</tspan></text>
+    <rect
+       y="184.33295"
+       x="329.04718"
+       height="31.31473"
+       width="114.71652"
+       id="rect4313"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4321"
+       y="286.33447"
+       x="133.62163"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"><tspan
          y="286.33447"
+         x="133.62163"
+         id="tspan4323"
+         sodipodi:role="line">A estoque D</tspan></text>
+    <rect
+       y="272.40588"
+       x="128.2325"
+       height="21.071428"
+       width="71.115555"
+       id="rect4325"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="429.7966"
+       y="286.33447"
+       id="text4327"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4329"
+         x="429.7966"
+         y="286.33447">A estoque D</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4331"
+       width="71.115555"
+       height="21.071428"
+       x="424.40747"
+       y="272.40588" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="273.3063"
+       y="286.33447"
+       id="text4244"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4246"
          x="273.3063"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="286.33447"
-           x="273.3063"
-           id="tspan4246"
-           sodipodi:role="line">A fait un winden</tspan></text>
-      <rect
-         y="272.40588"
-         x="264.49515"
-         height="21.071428"
-         width="94.765205"
-         id="rect4333"
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.64029008;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
+         y="286.33447">A fait un winden</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4333"
+       width="94.765205"
+       height="21.071428"
+       x="264.49515"
+       y="272.40588" />
     <path
        inkscape:connector-curvature="0"
        id="path4348"
        d="m 385.9215,215.64767 -74.04374,56.7582 -74.04375,-56.7582"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.92296624;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.92296624;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 237.83402,215.64768 -74.04374,56.7582"
        id="path4398"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.92296624;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 459.96524,272.40588 -74.04375,-56.7582"
        id="path4392"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.92296624;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 385.9215,350.23551 -74.04374,-56.7582 -74.04375,56.7582"
        id="path4400"
        inkscape:connector-curvature="0" />
@@ -391,7 +365,7 @@
        id="text4402"
        y="248.06259"
        x="107.14285"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        xml:space="preserve"><tspan
          y="248.06259"
          x="107.14285"
@@ -399,7 +373,7 @@
          sodipodi:role="line">D ne fait rien</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        x="437.14285"
        y="248.06259"
        id="text4406"
@@ -413,55 +387,47 @@
        id="text4410"
        y="248.06259"
        x="292.54181"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        xml:space="preserve"><tspan
          y="248.06259"
          x="292.54181"
          id="tspan4412"
          sodipodi:role="line">D dévie</tspan></text>
-    <g
-       transform="translate(-197.18854,76.459479)"
-       id="g4414">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="404.85391"
-         y="287.70462"
-         id="text4416"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4418"
-           x="404.85391"
-           y="287.70462">A estoque D</tspan></text>
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.55466992;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect4420"
-         width="71.115555"
-         height="21.071428"
-         x="399.46478"
-         y="273.77603" />
-    </g>
-    <g
-       id="g4433"
-       transform="translate(-0.23330042,-45.975061)">
-      <text
-         sodipodi:linespacing="125%"
-         id="text4268"
-         y="409.50507"
-         x="337.14285"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="409.50507"
-           x="337.14285"
-           id="tspan4270"
-           sodipodi:role="line">A frappe les jambes</tspan></text>
-      <rect
-         y="396.21057"
-         x="332.69308"
-         height="21.071428"
-         width="106.92342"
-         id="rect4428"
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.68012494;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4416"
+       y="364.16409"
+       x="207.66537"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="364.16409"
+         x="207.66537"
+         id="tspan4418"
+         sodipodi:role="line">A estoque D</tspan></text>
+    <rect
+       y="350.2355"
+       x="202.27625"
+       height="21.071428"
+       width="71.115555"
+       id="rect4420"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="336.90955"
+       y="363.53"
+       id="text4268"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4270"
+         x="336.90955"
+         y="363.53">A frappe les jambes</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4428"
+       width="106.92342"
+       height="21.071428"
+       x="332.45978"
+       y="350.2355" />
   </g>
 </svg>
