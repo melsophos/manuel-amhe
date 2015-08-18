@@ -2,6 +2,15 @@
 
 Ce document contient diverses conventions sur la rédaction du manuel.
 
+## LaTeX
+
+Conventions pour les labels
+
+    sec[:subsec]type:nom
+
+où le type crrespond au type de référence et peut être : fig, tab, def, coup,
+garde, tech, ex.
+
 ## Contrôle de version
 
 Mercurial est utilisé pour gérer les versions du code LaTeX.
