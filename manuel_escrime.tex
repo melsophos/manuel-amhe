@@ -35,14 +35,17 @@
 \usepackage[all]{hypcap}
 \usepackage[amsmath, hyperref, framed]{ntheorem}
 
+
 \hypersetup{
 	pdftitle={Arts martiaux historiques},
 	% pdfkeywords={Mots clés PDF},
 	% pdfsubject={Sujet PDF}
 }
 
+
 \pagestyle{plain}
 \graphicspath{{images/}}
+
 
 \renewcommand{\Affilfont}{\small}
 \newcommand{\email}[1]{\thanks{\href{mailto:#1}{\nolinkurl{#1}}}}
@@ -50,16 +53,19 @@
 % enable non-breakable space
 \DeclareUnicodeCharacter{00A0}{~}
 
+
 % TODO: améliorer le style
 \input{style.def}
-\addbibresource{manuel_escrime}
+\addbibresource{escrime}
 \iffalse
-\bibliography{manuel_escrime}
+\bibliography{escrime}
 \fi
 
 \makeindex
 
+
 \input{defs}
+
 
 \title{Arts martiaux historiques}
 
@@ -69,21 +75,24 @@
 
 \titlepic{\includegraphics[width=0.8\textwidth]{logo_cda.pdf}}
 
-% index: termes anglais, allemands, etc.
 
 \begin{document}
+
 \pagenumbering{roman}
 \maketitle
 
+
 \pagenumbering{arabic}
-\licence{lal}{2012–2015}
+\licence{lal}{2012–2016}
 \version
+
 
 \tableofcontents
 
 
 \input{chapters/introduction}
 \input{chapters/structure}
+
 
 \part{Étude : arts anciens}
 
@@ -96,9 +105,11 @@
 \input{chapters/messer}
 % épée longue en armure ?
 
+
 \part{Étude : arts modernes}
 
 \input{chapters/close_combat}
+
 
 \part{Applications}
 
@@ -106,7 +117,9 @@
 \input{chapters/armes_tranchantes}
 % spectacle
 
+
 \appendix
+
 
 \part{Appendices}
 
@@ -119,5 +132,6 @@
 
 \printbibliography[heading=bibintoc]
 \printindex
+
 
 \end{document}
