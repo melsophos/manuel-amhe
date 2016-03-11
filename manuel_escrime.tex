@@ -17,6 +17,8 @@
 \usepackage{authblk}
 \usepackage[backend=bibtex8, citestyle=numeric-comp, maxbibnames=99, sorting=nyt,
 			sortcites=true, firstinits=true]{biblatex}
+% TODO: améliorer le style
+\input{escrime.def}
 
 \usepackage{amsmath, amsfonts, amssymb, siunitx}
 
@@ -31,6 +33,9 @@
 ]{hyperref}
 \usepackage[all]{hypcap}
 \usepackage[amsmath, hyperref, framed]{ntheorem}
+
+
+\usepackage{escrime}
 
 
 \hypersetup{
@@ -51,17 +56,12 @@
 \DeclareUnicodeCharacter{00A0}{~}
 
 
-% TODO: améliorer le style
-\input{escrime.def}
 \addbibresource{escrime}
 \iffalse
 \bibliography{escrime}
 \fi
 
 \makeindex
-
-
-\input{defs}
 
 
 \title{Arts martiaux historiques}
