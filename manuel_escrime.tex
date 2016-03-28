@@ -32,6 +32,7 @@
 	pdfcreator={PDFLaTeX}, pdfauthor={Harold Erbin}
 ]{hyperref}
 \usepackage[all]{hypcap}
+
 \usepackage[amsmath, hyperref, framed]{ntheorem}
 
 
@@ -81,6 +82,7 @@
 
 \pagenumbering{arabic}
 
+\thispagestyle{empty}
 \begin{center}
 	\setlength{\baselineskip}{1.5\baselineskip}{\fontsize{12}{14}\selectfont{}
 	Ce texte est diffusé sous la licence libre\\\textbf{Licence Art Libre} :}\\\url{http://artlibre.org/licence/lal/}
@@ -147,6 +149,7 @@
 
 \part{Appendices}
 
+\input{chapters/conventions}
 \input{appendix/traites}
 \input{appendix/glossaire}
 \input{appendix/pedagogie}
