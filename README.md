@@ -1,6 +1,7 @@
 # README
 
-Ce document contient diverses conventions sur la rédaction du manuel.
+Ce document contient diverses conventions sur la rédaction du manuel et des
+ateliers.
 
 ## LaTeX
 
