@@ -22,25 +22,25 @@
 
 \usepackage{amsmath, amsfonts, amssymb, siunitx}
 
-\usepackage{makeidx}
 \usepackage[cc]{titlepic}
 \usepackage{framed}
+
+\usepackage{xr-hyper}
 
 % hyperfootnotes=false
 \usepackage[pdftex, colorlinks=true, breaklinks=true,
 	urlcolor=blue, linkcolor=blue, citecolor=red,
-	pdfcreator={PDFLaTeX}, pdfauthor={Harold Erbin}
+	filecolor=blue, pdfauthor={Harold Erbin}
 ]{hyperref}
 \usepackage[all]{hypcap}
 
 \usepackage[amsmath, hyperref, framed]{ntheorem}
 
-
 \usepackage{escrime}
 
 
 \hypersetup{
-	pdftitle={Arts martiaux historiques},
+	pdftitle={Arts martiaux historiques - ateliers},
 	% pdfkeywords={Mots clés PDF},
 	% pdfsubject={Sujet PDF}
 }
@@ -62,10 +62,10 @@
 \bibliography{escrime}
 \fi
 
-\makeindex
+\externaldocument{manuel_escrime}
 
 
-\title{Arts martiaux historiques}
+\title{Arts martiaux historiques -- ateliers}
 
 \author[*]{Harold Erbin\email{harold.erbin@gmail.com}}
 \affil[*]{Chapitre des armes, Paris, France}
@@ -76,101 +76,13 @@
 
 \begin{document}
 
-% \pagenumbering{roman}
 \maketitle
 
 
-% \pagenumbering{arabic}
 \setcounter{page}{2}
 
-\thispagestyle{empty}
-\begin{center}
-	\setlength{\baselineskip}{1.5\baselineskip}{\fontsize{12}{14}\selectfont{}
-	Ce texte est diffusé sous la licence libre\\\textbf{Licence Art Libre} :}\\\url{http://artlibre.org/licence/lal/}
-\end{center}
-
-
-\tableofcontents
-
-
-\input{chapters/introduction}
-
-
-\part{Notions générales}
-
-\input{chapters/structure}
-% \input{chapters/attaque_defense}
-
-
-\part{Combat rapproché}
-
-\input{chapters/mains_nues}
-% \input{chapters/dague}
-% \input{chapters/glima}
-
-
-\part{Épée longue}
-
-\input{chapters/epee_longue}
-\input{chapters/epee_longue_allemande}
-\input{chapters/epee_longue_italienne}
-
-
-\part{Épée et bouclier}
-
-% diviser ?
-\input{chapters/epee_bocle}
-% \input{chapters/bouclier_viking}
-% \input{chapters/ecu}
-
-
-\part{Armes d'hast}
-
-\input{chapters/lance}
-\input{chapters/pertuisane}
-% \input{chapters/hallebarde}
-% \input{chapters/hache_noble}
-% \input{chapters/baton_long}
-
-
-\part{Autres armes}
-
-\input{chapters/rapiere}
-\input{chapters/messer}
-% épée longue en armure ?
-
-
-\part{Arts modernes}
-
-\input{chapters/close_combat}
-% \input{chapters/systema}
-
-
-\part{Applications}
-
-\input{chapters/combat_libre}
-\input{chapters/armes_tranchantes}
-% \input{chapters/spectacle}
-
-
-% \part{Pédagogie et attitude}
-
-
-\appendix
-
-
-\part{Appendices}
-
-\input{chapters/conventions}
-\input{appendix/traites}
-\input{appendix/glossaire}
-\input{appendix/pedagogie}
-\input{appendix/fabrication}
-\input{appendix/materiel}
-
+\input{ateliers/ateliers}
 
 \printbibliography[heading=bibintoc]
-\printindex
-
 
 \end{document}
