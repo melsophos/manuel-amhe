@@ -1,19 +1,215 @@
 \chapter{Attaques et défenses}
 
 
-Certains des exercices peuvent se faire en plaçant un banc entre les deux partenaires.
+% esquives
 
-\begin{exercice}[Mouvement dans le vide]
-Effectuer des attaques simples dans le vide, puis des enchaînements.
 
-Cet exercice devrait être un des premiers à effectuer avec toute nouvelle arme afin de s'habituer à son poids, à sa taille, aux mouvements possibles avec le corps, etc.
+\section{Attaque}
+\label{sec:att-def:attaque}
+
+\begin{definition}[Attaques simple et composée]
+\index{attaque}
+
+\noindent
+On peut distinguer les attaques simples des attaques composées :
+\begin{itemize}
+	\item une \emph{attaque simple} consiste en un coup isolé ;
+	\item une \emph{attaque composée} (ou technique) est une séquence d'actions, chacune ayant pour objectif de préparer la suivante.
+\end{itemize}
+\end{definition}
+
+
+Le principal intérêt d'une attaque simple est de tester l'adversaire (type de réaction, temps de réponse…) ou de le faire réagir (forcer un changement de garde…).
+Des attaques simples peuvent être enchainées sans pour autant former une attaque composée : par exemple on peut induire un schéma en attaquant alternativement à gauche et à droite avec des coups de taille, pour ensuite le briser et surprendre l'adversaire.
+
+Une attaque composée se distingue d'une attaque simple principalement par l'intention : chaque composante de l'attaque est différente et permet de préparer le terrain.
+L'exemple le plus simple d'une attaque composée est une feinte sur une cible suivie d'une attaque sur une autre ouverture : si la feinte est crédible l'adversaire cherchera à se défendre contre la première attaque ce qui ouvre une autre ligne, et du fait que l'attaquant ne porte pas son coup jusqu'au bout il dispose d'une avance (en plus de l'effet de surprise).
+L'idée générale est de placer l'opposant dans une situation qui le forcera à réagir d'une manière que nous pouvons exploiter : en effet face à une situation donnée il existe un certain nombre de réactions possibles (conditionnées en partie par l'arme, le style et l'expérience).
+Cela explique l'intérêt d'apprendre des techniques : on dispose alors d'un vaste répertoire de pièces que nous pouvons exécuter afin de prendre l'avantage, que nous ayons pris l'initiative ou non à l'origine.
+Toutefois il faut être prêt à changer son plan si l'adversaire ne réagit pas comme prévu ou si l'on perçoit une opportunité : ainsi si l'on veut exécuter une feinte mais que l'adversaire ne se protège pas alors il faut porter la frappe jusqu'au bout.
+
+% TODO: changer de section ?
+
+Une attaque s'accompagne d'un mouvement de jambes qui permet de donner plus de force au mouvement et de sortir de l'axe (définition~\ref{dep:def:sortie-axe}).
+En effet si l'attaque se fait en avançant droit devant il y a le risque d'un coup double si l'adversaire fait de même.
+
+
+\begin{coup}[Attaque directe]
+\index{coup}
+\index{attaque|see{coup}}
+
+Partant d'une garde avec le pied droit (resp.\ gauche) en arrière, l'attaquant porte un coup depuis son côté droit (resp.\ gauche) en avançant le pied droit (resp.\ gauche).
+\end{coup}
+
+Le fait que le pied et l'attaque ait lieu du même côté s'expliquer par le fait que le coup est plus puissant de cette manière : dans le cas contraire, appeler contre-pied, le mouvement n'est pas naturel pour le corps (voir le commentaire dans Ringeck~\cite[p.~7]{farrell:ringeck}).
+Toutefois il peut arriver que l'on souhaite attaquer du côté où se trouve le pied avant (par exemple redoubler une attaque) : dans ce cas on effectuera quand même un déplacement des pieds accompagné d'une sortie d'axe.
+À noter aussi que pour certaines armes, comme l'épée longue~\cite[p.~10]{farrell:ringeck}, il est conseillé d'attaquer en premier du côté dominant car on pourra y mettre plus de force : ainsi un droitier devrait commencer par attaquer à droite, et inversement pour un gaucher.
+
+\begin{coup}[Attaque à contre-pied]
+\label{struct:coup:contre-pied}
+\index{coup!en contre-pied}
+\index{contre-pied}
+
+Une attaque à contre-pied consiste à avancer le pied du côté opposé à celui où l'on attaque.
+\end{coup}
+
+Le contre-pied permet de gagner en distance et de surprendre l'adversaire.
+Le gain de distance par rapport à la position normale est due à la position des épaules.
+
+
+% TODO: mieux expliquer
+\begin{technique}[Changement de ligne]
+\label{struct:tech:changement-ligne}
+
+\A et \D ont les lames en contact.
+En tournant les mains de 180° \A peut passer derrière la lame de \D et le toucher.
+
+Cela implique de passer de supination à pronation, ou inversement (selon le côté).
+
+% Source : Romain.
+\end{technique}
+
+
+\section{Défense}
+
+
+% dévier/absorber, parade franche, esquive (avec/sans couverture), reculer
+
+
+\section{Concepts}
+
+
+% temps
+Un certain nombre de paramètres entrent en compte
+
+
+
+\subsection{Distance}
+
+
+La distance est un concept important car les techniques utilisées vont varier en fonction de celle-ci.
+De plus il faut s'habituer à être capable d'évaluer rapidement les différentes distances en fonction de l'arme utilisée : être hors distance ne signifie pas la même chose quand on se bat à mains nues ou avec une lance.
+
+Dans la définition ci-dessous nous indiquons entre parenthèses le nom allemand correspondant~\cite{kronenburg:dijon:going_distance:2015}.
+L'attribution de ces mots est sujette à débat mais nous les donnons car certains les utilisent.
+"Ringen" signifie "corps-à-corps", "arm" signifie "bras" et "leib" signifie "corps".
+% cf Forgeng Glossary
+
+\begin{definition}[Distances]
+\index{distance}
+
+\noindent
+La distance entre deux opposants peut être définie selon les actions possibles :
+\begin{itemize}
+	\item \emph{hors distance} : les deux combattants sont éloignés et ne peuvent mener aucune action offensive directement ;
+	
+	\item \emph{approche} (zufechten) : les deux combattants sont éloignés et il suffit d'un temps pour arriver au contact des lames ;
+	
+	\item \emph{engagement} (fechten) : les armes des deux combattants peuvent se toucher, mais ils sont trop éloignés pour pouvoir toucher directement l'autre ;
+	
+	\item \emph{engagement proche} (kriegen) : les armes des deux combattants peuvent se toucher et l'opposant est à distance de touche ;
+	
+	\item \emph{combat rapproché} (armringen) : les deux opposants sont suffisamment proches pour pouvoir toucher l'autre en tendant le bras ou la jambe ;
+	
+	\item \emph{corps-à-corps} (leibringen) : les deux opposants sont très proches et peuvent travailler sur tout le corps de l'adversaire.
+\end{itemize}
+\end{definition}
+
+
+\begin{definition}[Jeux long et court]
+\index{distance!jeu court}%|textbf
+\index{distance!jeu long}
+\index{jeu|see{distance}}
+
+\noindent
+En escrime italienne les distances sont rassemblées de la manière suivante :
+\begin{itemize}
+	\item \emph{jeu long} : hors distance, approche, engagement ;
+	
+	\item \emph{jeu court} : engagement proche, combat rapproché, corps-à-corps.
+\end{itemize}
+\end{definition}
+
+% À l'épée longue le jeu court est caractérisé par la position de \emph{mezza spada}, où les deux armes sont au contact au milieu de la lame.
+
+La division du combat en six distances est relativement arbitraire et les frontières sont parfois floues, selon les armes et les styles.
+Toutefois cela donne une première idée des actions possibles en fonction de la distance et peut servir de base au raisonnement.
+
+Un combat débute typiquement avec les adversaires hors distance : plusieurs temps sont nécessaires avant de pouvoir lancer une attaque.
+Il s'agit d'une phase d'observation où chacun essaie de se faire une idée de son opposant.
+Pour cette raison les positions de garde sont peu offensives et défensives : on privilégiera des positions reposantes car l'adversaire est trop loin pour surprendre.
+Il peut arriver pendant un combat que les adversaires s'éloignent pour se mettre hors distance afin de souffler.
+
+La position devient plus hermétique dans la phase d'approche : l'adversaire est capable de porter rapidement un coup et il faut être prêt à réagir vite.
+Dès qu'une attaque est portée on arrive à l'engagement : les armes sont généralement au contact afin de contrôler les mouvements de l'adversaire et de \emph{sentir} l'intention de l'adversaire.
+
+Dès que l'engagement se rapproche il devient possible de blesser directement l'adversaire et il est donc important de ne pas perdre le contrôle et de ne pas laisser d'ouverture.
+On commence aussi à disposer d'un manœuvre plus large sur l'arme de l'adversaire.
+% escrime allemande
+À noter que l'on passe souvent de la phase d'approche à la phase d'engagement rapproché directement : il suffit que la cible lors de l'attaque soit le corps de l'adversaire pour se retrouver très proche à la fin de l'attaque.
+
+Finalement le combat rapproché permet de donner des coups de poing et de pied à l'adversaire.
+En outre on se trouve suffisamment proche pour exécuter certaines clés sur les bras, typiquement.
+Le corps-à-corps constitue la dernière étape du combat, et peut éventuellement se dérouler au sol : elle contient des saisies et des clés sur tout le corps (étranglements…) et des projections.
+
+
+
+\subsection{Temps}
+
+
+
+
+\subsection{Sentiment du contact}
+
+
+\index{sentiment du fer}
+Le sentiment du contact, aussi appelé plus spécifiquement le sentiment du fer, consiste à sentir l'intention de son adversaire à travers le contact que l'on a avec lui, que ce soit via les armes (bouclier compris) ou le corps.
+
+
+\begin{exercice}[Variante à l'échauffement d'Ingulf]
+\label{att:ex:Ingulf-variantes}
+\index{echauffement@échauffement!exercice}
+
+\obj{Cet exercice travaille la structure, l'équilibre et le sentiment du contact.}
+
+La disposition initiale est identique à celle de l'exercice~\ref{struc:ex:Ingulf}.
+Lors du déplacement des actions supplémentaires peuvent être exécutées par \A et \D afin de travailler le sentiment du contact :
+\begin{enumerate}
+	\item Changement de garde : \A peut passer le bras à l'extérieur (gauche au début de l'exercice) sous le bras de \D pour venir attraper l'intérieur de son coude droit.
+	Cela met \A dans une position avantageuse car il contrôle totalement le centre et oblige \D à se retrouver de face, avec les deux bras à l'extérieur.
+	Au combat \D possèderait peu de cibles intéressantes, à l'opposé de \A.
+	
+	Afin de ne pas se retrouver en position dominée \D a intérêt à changer lui aussi de garde en même temps que \A, afin de rétablir l'équilibre.
+	Dans ce cas la position est exactement opposée à celle de départ.
+	
+	\item \A essaie d'attraper le bras de \D.
+	Pour ce faire il doit lâcher sa prise et passer ses deux bras sous le bras de \D afin de le plaquer contre sa poitrine avec ses avant-bras.
+	Attention aux pouces !
+	L'objectif de \D est de sentir le moment où \A lâche son autre bras afin de retirer le bras ciblé.
+	
+	En explorant on peut remarquer que deux moments sont particulièrement adaptés : quand \D change de garde et quand \D pousse vers l'avant.
+	
+	\item Si \A essaie d'attraper le bras et que \D parvient à se retirer alors \D essaie de se placer dans le dos de \A et de l'enserrer avec ses bras.
+	
+	\item \A peut lâcher une de ses mains afin de venir toucher la tête de \D.
+	\D doit sentir à quel moment \A lâche sa main afin d'esquiver en se baissant.
+	
+	La difficulté se trouve dans le fait que \A, à ce point de l'exercice, \A peut lâcher sa main pour exécuter différentes actions et \D doit sentir son intention.
+	
+	\item Fermer les yeux.
+\end{enumerate}
+Ces divers éléments peuvent être ajoutés un par un (en particulier la première variante est simple et devrait être ajoutée rapidement).
+
+\source{\cite{Kohlweiss:2014:Dijon:RingenSchwert}}
 \end{exercice}
 
 
-% Ringeck: toujours frappe du côté naturel, ie droit pour un droitier
-% esquives
 
-\section{Frappes et distance}
+
+\section{Exercices}
+
+
+Certains des exercices peuvent se faire en plaçant un banc entre les deux partenaires.
 
 
 \subsection{Mains nues}
@@ -79,6 +275,13 @@ en épée longue allemande).
 Il est intéressant de varier les armes avec lesquelles sont faits les trois exercices suivants afin de s'entraîner à estimer les distances dans divers cas.
 À chaque fois l'attaque doit être normale par rapport à l'arme utilisée (ni forcée, ni exagérée, etc.).
 La croix de la garde d'une épée longue (en nylon) renversée peut servir de cible.
+
+
+\begin{exercice}[Mouvement dans le vide]
+Effectuer des attaques simples dans le vide, puis des enchaînements.
+
+Cet exercice devrait être un des premiers à effectuer avec toute nouvelle arme afin de s'habituer à son poids, à sa taille, aux mouvements possibles avec le corps, etc.
+\end{exercice}
 
 
 \begin{exercice}
@@ -193,18 +396,6 @@ Dans cet exercice il est très facile de voir si \A utilise uniquement ses bras 
 \end{exercice}
 
 
-\begin{coup}[Attaque à contre-pied]
-\label{struct:coup:contre-pied}
-\index{coup!en contre-pied}
-\index{contre-pied}
-
-Une attaque à contre-pied consiste à avancer le pied opposé du côté où l'on attaque.
-\end{coup}
-
-Le contre-pied permet de gagner en distance et de surprendre l'adversaire.
-Le gain de distance par rapport à la position normale est due à la position des épaules.
-
-
 \begin{exercice}
 
 \begin{enumerate}
@@ -220,19 +411,6 @@ Source : Romain.
 \end{exercice}
 
 
-% TODO: mieux expliquer
-\begin{technique}[Changement de ligne]
-\label{struct:tech:changement-ligne}
-
-\A et \D ont les lames en contact.
-En tournant les mains de 180° \A peut passer derrière la lame de \D et le toucher.
-
-Cela implique de passer de supination à pronation, ou inversement (selon le côté).
-
-Source : Romain.
-\end{technique}
-
-
 \begin{exercice}
 \A et \D n'ont aucune protection.
 
@@ -242,46 +420,4 @@ L'idée de l'exercice est de perdre la peur d'être touché par l'arme de son é
 \end{exercice}
 
 
-\section{Sentiment du contact}
-
-
-Le sentiment du contact, aussi appelé plus spécifiquement le sentiment du fer, consiste à sentir l'intention de son adversaire à travers le contact que l'on a avec lui, que ce soit via les armes (bouclier compris) ou le corps.
-
-
-\begin{exercice}[Variante à l'échauffement d'Ingulf]
-\label{att:ex:Ingulf-variantes}
-\index{echauffement@échauffement!exercice}
-
-\obj{Cet exercice travaille la structure, l'équilibre et le sentiment du contact.}
-
-La disposition initiale est identique à celle de l'exercice~\ref{struc:ex:Ingulf}.
-Lors du déplacement des actions supplémentaires peuvent être exécutées par \A et \D afin de travailler le sentiment du contact :
-\begin{enumerate}
-	\item Changement de garde : \A peut passer le bras à l'extérieur (gauche au début de l'exercice) sous le bras de \D pour venir attraper l'intérieur de son coude droit.
-	Cela met \A dans une position avantageuse car il contrôle totalement le centre et oblige \D à se retrouver de face, avec les deux bras à l'extérieur.
-	Au combat \D possèderait peu de cibles intéressantes, à l'opposé de \A.
-	
-	Afin de ne pas se retrouver en position dominée \D a intérêt à changer lui aussi de garde en même temps que \A, afin de rétablir l'équilibre.
-	Dans ce cas la position est exactement opposée à celle de départ.
-	
-	\item \A essaie d'attraper le bras de \D.
-	Pour ce faire il doit lâcher sa prise et passer ses deux bras sous le bras de \D afin de le plaquer contre sa poitrine avec ses avant-bras.
-	Attention aux pouces !
-	L'objectif de \D est de sentir le moment où \A lâche son autre bras afin de retirer le bras ciblé.
-	
-	En explorant on peut remarquer que deux moments sont particulièrement adaptés : quand \D change de garde et quand \D pousse vers l'avant.
-	
-	\item Si \A essaie d'attraper le bras et que \D parvient à se retirer alors \D essaie de se placer dans le dos de \A et de l'enserrer avec ses bras.
-	
-	\item \A peut lâcher une de ses mains afin de venir toucher la tête de \D.
-	\D doit sentir à quel moment \A lâche sa main afin d'esquiver en se baissant.
-	
-	La difficulté se trouve dans le fait que \A, à ce point de l'exercice, \A peut lâcher sa main pour exécuter différentes actions et \D doit sentir son intention.
-	
-	\item Fermer les yeux.
-\end{enumerate}
-Ces divers éléments peuvent être ajoutés un par un (en particulier la première variante est simple et devrait être ajoutée rapidement).
-
-\source{\cite{Kohlweiss:2014:Dijon:RingenSchwert}}
-\end{exercice}
 

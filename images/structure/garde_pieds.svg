@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="196.54554"
-     inkscape:cy="922.70756"
+     inkscape:zoom="1.0844844"
+     inkscape:cx="319.22307"
+     inkscape:cy="860.51402"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,7 +56,7 @@
       <path
          id="path4169"
          d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
          transform="scale(0.4) rotate(180) translate(10,0)" />
     </marker>
     <inkscape:perspective
@@ -85,37 +85,37 @@
     <path
        inkscape:connector-curvature="0"
        id="path3336"
-       d="M 145.09492,189.5772 89.031465,133.51374"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+       d="M 175.68884,226.384 99.251624,149.94678"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.81804323;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 145.09492,189.5772 0,-108.58014"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.81804323;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 175.68884,226.384 0,-148.038746"
        id="path3340"
        inkscape:connector-curvature="0" />
     <ellipse
-       style="opacity:0.78125;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:0.78125;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.36340535;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path3342"
-       cx="155"
-       cy="102.71935"
-       rx="7.5"
-       ry="22.5" />
+       cx="189.19348"
+       cy="107.96154"
+       rx="10.22554"
+       ry="30.67662" />
     <ellipse
-       ry="22.5"
-       rx="7.5"
-       cy="209.29228"
-       cx="-31.45372"
+       ry="30.67662"
+       rx="10.22554"
+       cy="247.01024"
+       cx="-35.846889"
        id="ellipse3344"
-       style="opacity:0.78125;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:0.78125;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.36340535;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.7,2.1;stroke-dashoffset:0"
-       d="m 117.06319,161.54547 c 0.78816,-19.1561 13.09178,-20.65515 28.03173,-18.11184"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.95438373;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.95438375, 2.86315126;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 137.47023,188.16539 c 1.07458,-26.11753 17.8494,-28.16134 38.21861,-24.69378"
        id="path4146"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <g
        id="g4241"
-       transform="translate(-107.58125,3.5355339)"
+       transform="matrix(1.3634054,0,0,1.3634054,-168.8112,-27.266206)"
        ns0:preamble="/home/harold/texmf/inkscape.tex"
        ns0:text="$\\ang{45}$">
       <defs
