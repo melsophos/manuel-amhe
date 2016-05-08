@@ -6,8 +6,8 @@
 \usepackage[french]{babel}
 \usepackage{csquotes}
 
-\usepackage[top=4cm,bottom=3.5cm,left=3.5cm,right=3.5cm]{geometry}
-% default top=4.5cm,bottom=4cm,left=4.5cm,right=4.5cm
+\usepackage[top=4cm, bottom=3.5cm, left=3.5cm, right=3.5cm]{geometry}
+% default top=4.5cm, bottom=4cm, left=4.5cm, right=4.5cm
 \usepackage{changepage}
 
 \usepackage{eurosym, xspace}
@@ -24,7 +24,12 @@
 
 \usepackage{makeidx}
 \usepackage[cc]{titlepic}
-\usepackage{framed}
+
+\usepackage[usenames, dvipsnames]{xcolor}
+\usepackage{framed, mdframed}
+\usepackage[amsmath, hyperref, framed]{ntheorem}
+% \usepackage{amsthm, thmtools}
+
 
 % hyperfootnotes=false
 \usepackage[pdftex, colorlinks=true, breaklinks=true,
@@ -32,8 +37,6 @@
 	pdfcreator={PDFLaTeX}, pdfauthor={Harold Erbin}
 ]{hyperref}
 \usepackage[all]{hypcap}
-
-\usepackage[amsmath, hyperref, framed]{ntheorem}
 
 
 \usepackage{escrime}
@@ -44,7 +47,6 @@
 	% pdfkeywords={Mots clés PDF},
 	% pdfsubject={Sujet PDF}
 }
-
 
 \pagestyle{plain}
 \graphicspath{{images/}}
@@ -171,6 +173,8 @@
 \input{appendix/glossaire}
 \input{appendix/pedagogie}
 
+% \listoftheorems[ignoreall, show={theorem,Theorem,euclid}]
+% onlynamed={theorem,Theorem,euclid}
 
 \printbibliography[heading=bibintoc]
 \printindex
