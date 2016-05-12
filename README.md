@@ -25,3 +25,9 @@ description plus longue après une ligne vide.
 Cette description inclue l'arme concernée et la source utilisée (manuscrit,
 stage...).
 
+## Références
+
+Les références dans le fichier bibtex sont typiquement de la forme suivante
+
+    [Author:][Traducteur|Workshop:][:année]:Titre
+
