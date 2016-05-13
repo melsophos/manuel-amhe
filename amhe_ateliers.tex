@@ -36,6 +36,9 @@
 ]{hyperref}
 \usepackage[all]{hypcap}
 
+\usepackage[sort&compress, nameinlink, french]{cleveref}
+
+
 \usepackage{escrime}
 
 
@@ -65,6 +68,9 @@
 \externaldocument{amhe_manuel}
 
 
+\newcommand{\auteur}[1]{\noindent Auteur : #1 \bigskip}
+
+
 \title{Arts martiaux historiques -- ateliers}
 
 \author[*]{Harold Erbin\email{harold.erbin@gmail.com}}
@@ -73,14 +79,30 @@
 
 \titlepic{\includegraphics[width=0.8\textwidth]{logo_cda.pdf}}
 
+
 \begin{document}
 
 \thispagestyle{empty}
 \maketitle
 
 
+\clearpage
 \setcounter{page}{2}
 
+\hrule
+\pdfbookmark[1]{\contentsname}{toc}
+\tableofcontents
+\bigskip
+\hrule
+
+\vspace{\stretch{1}}
+
+% \begin{center}
+	{\setlength{\baselineskip}{1.5\baselineskip}\fontsize{12}{14}\selectfont{}
+	Copyright : Les ateliers restent la propriété de leurs auteurs respectifs.} 
+% \end{center}
+
+\newpage
 
 % \input{ateliers/introduction}
 % TODO: séparer par arme

@@ -1,9 +1,31 @@
 # README
 
-Ce document contient diverses conventions sur la rédaction du manuel et des
-ateliers.
+L'objectif de ce projet est de créer un manuel complet pour l'étude des arts
+martiaux historiques européens (AMHE).
 
-## LaTeX
+## Manuel
+
+La dernière version du texte peut être téléchargée à l'[adresse suivante][1].
+Le manuel principal est diffusé sous la [Licence Art Libre 1.3][2], toutefois
+les ateliers ne sont pas diffusés sous licence libre et les ateliers restent
+la propriété de leurs auteurs respectifs.
+
+Les commentaires (critiques, suggestions, demandes d'ajout) peuvent m'être
+adressés par email ou bien en remplissant un [rapport "d'erreur" sur Github][3].
+Cette dernière solution est plus simple car elle me permet de centraliser les
+remarques.
+
+Les changements entre chaque version majeure peuvent être trouvés dans le
+fichier `CHANGES`.
+
+## Contributions
+
+Toute contribution au manuel est bienvenue. Les contributions courtes peuvent
+m'être envoyées par email. Pour les corrections plus longues la méthode
+préférée est d'utiliser la méthode de ["fork-branch-pull request"][4].
+Cette section liste certaines conventions utilisées dans le manuel.
+
+### LaTeX
 
 Le projet est composé de deux fichiers : un qui contient le manuel proprement
 dit, et l'autre une liste d'ateliers. Ce second fichier fait référence aux
@@ -17,17 +39,22 @@ Conventions pour les labels
 où le type crrespond au type de référence et peut être : fig, tab, def, coup,
 garde, tech, ex.
 
-## Contrôle de version
+### Contrôle de version
 
-Mercurial est utilisé pour gérer les versions du code LaTeX.
-Les messages doivent comporter un titre court (moins de 80 caractères) et une
-description plus longue après une ligne vide.
-Cette description inclue l'arme concernée et la source utilisée (manuscrit,
-stage...).
+Git est utilisé pour gérer les versions du code LaTeX. Les messages doivent
+comporter un titre court (moins de 80 caractères) et une description plus
+longue après une ligne vide. Si possible cette description inclue l'arme
+concernée et la source utilisée (manuscrit, stage...).
 
-## Références
+### Références
 
-Les références dans le fichier bibtex sont typiquement de la forme suivante
+Les clés des références Bibtex sont typiquement de la forme suivante
 
     [Author:][Traducteur|Workshop:][:année]:Titre
+
+
+[1]: https://www.dropbox.com/s/ga9t604bu94rmox/amhe_manuel.pdf?dl=0
+[2]: http://artlibre.org
+[3]: https://github.com/melsophos/manuel_amhe/issues
+[4]: https://help.github.com/articles/fork-a-repo/
 
