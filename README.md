@@ -10,9 +10,9 @@ Le manuel principal est diffusé sous la [Licence Art Libre 1.3][2], toutefois
 les ateliers ne sont pas diffusés sous licence libre et les ateliers restent
 la propriété de leurs auteurs respectifs.
 
-Les commentaires (critiques, suggestions, demandes d'ajout) peuvent m'être
+Les commentaires (critiques, suggestions, demandes d'ajout...) peuvent être
 adressés par email ou bien en remplissant un [rapport "d'erreur" sur Github][3].
-Cette dernière solution est plus simple car elle me permet de centraliser les
+Cette dernière solution est plus simple car elle permet de centraliser les
 remarques.
 
 Les changements entre chaque version majeure peuvent être trouvés dans le
@@ -21,9 +21,17 @@ fichier `CHANGES`.
 ## Contributions
 
 Toute contribution au manuel est bienvenue. Les contributions courtes peuvent
-m'être envoyées par email. Pour les corrections plus longues la méthode
+être envoyées par email. Pour les corrections plus longues la méthode
 préférée est d'utiliser la méthode de ["fork-branch-pull request"][4].
 Cette section liste certaines conventions utilisées dans le manuel.
+
+### Descriptions
+
+La description des exercices et des techniques doivent suivre les conventions
+décrites dans le manuel. Il vaut mieux donner trop de détails que pas assez.
+Afin que les fiches d'ateliers puissent être utilisées sans le manuel principal
+(par exemple en cours, où un accès rapide est nécessaire) chaque point de
+l'atelier comporte une référence au manuel ainsi qu'une courte description.
 
 ### LaTeX
 
