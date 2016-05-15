@@ -47,6 +47,11 @@ Conventions pour les labels
 où le type crrespond au type de référence et peut être : fig, tab, def, coup,
 garde, tech, ex.
 
+### Images
+
+Les images sont créées grâce à Inkscape et sauvegardées au format svg. Dans
+le répertoire principal lancer `make svg` afin de convertir les images en PDF.
+
 ### Contrôle de version
 
 Git est utilisé pour gérer les versions du code LaTeX. Les messages doivent
