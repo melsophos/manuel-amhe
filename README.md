@@ -39,6 +39,8 @@ Le projet est composé de deux fichiers : un qui contient le manuel proprement
 dit, et l'autre une liste d'ateliers. Ce second fichier fait référence aux
 concepts définis dans le premier fichier via hyperref : pour cette raison il
 est nécessaire de s'assurer que le fichier amhe_manuel.aux existe.
+La commande `make build` construit les deux documents en s'assurant que toutes
+les dépendances sont satisfaites.
 
 Conventions pour les labels
 
@@ -50,7 +52,8 @@ garde, tech, ex.
 ### Images
 
 Les images sont créées grâce à Inkscape et sauvegardées au format svg. Dans
-le répertoire principal lancer `make svg` afin de convertir les images en PDF.
+le répertoire principal lancer `make images` afin de convertir les images en
+PDF.
 
 ### Contrôle de version
 
