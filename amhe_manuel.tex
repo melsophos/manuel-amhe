@@ -6,6 +6,10 @@
 \usepackage[english, french]{babel}
 \usepackage{csquotes}
 
+\usepackage[activate={true,nocompatibility}, final, babel=true
+	tracking=true, kerning=true, spacing=true,
+	factor=1100, stretch=10, shrink=10]{microtype}
+
 \usepackage[top=4cm, bottom=3.5cm, left=3.5cm, right=3.5cm]{geometry}
 % default top=4.5cm, bottom=4cm, left=4.5cm, right=4.5cm
 \usepackage{changepage}
@@ -50,15 +54,27 @@
 	% pdfsubject={Sujet PDF}
 }
 
-\pagestyle{plain}
-\graphicspath{{images/}}
-
 
 \renewcommand{\Affilfont}{\small}
 \newcommand{\email}[1]{\thanks{\href{mailto:#1}{\nolinkurl{#1}}}}
 % \sisetup{group-separator = {,}, separate-uncertainty=true}
 % enable non-breakable space
 \DeclareUnicodeCharacter{00A0}{~}
+\DeclareUnicodeCharacter{202F}{~}
+
+
+% \SetExtraKerning[unit=space]{
+% 		encoding={*}, family={bch}, series={*},
+% 		size={footnotesize, small, normalsize}
+% 	}{
+% 		\textendash={400,400}
+% }
+\SetTracking{encoding={*}, shape=sc}{0}
+% \microtypecontext{spacing=french}
+
+
+\pagestyle{plain}
+\graphicspath{{images/}}
 
 
 \addbibresource{escrime}
@@ -104,7 +120,9 @@ Téléchargement : \url{https://www.dropbox.com/s/ga9t604bu94rmox/amhe_manuel.pd
 
 \clearpage
 \pdfbookmark[1]{\contentsname}{toc}
+\microtypesetup{protrusion=false}
 \tableofcontents
+\microtypesetup{protrusion=true}
 
 
 \input{chapters/introduction}
@@ -205,7 +223,10 @@ Téléchargement : \url{https://www.dropbox.com/s/ga9t604bu94rmox/amhe_manuel.pd
 \input{appendix/pedagogie}
 \input{appendix/echauffement}
 
+
+\microtypesetup{protrusion=false}
 \input{appendix/liste_defs}
+\microtypesetup{protrusion=true}
 
 
 \printbibliography[heading=bibintoc]

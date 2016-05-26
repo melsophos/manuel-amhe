@@ -18,16 +18,19 @@ PDFDOC = amhe_manuel.pdf amhe_ateliers.pdf
 	rm -f $(CLEANEXT)
 
 
-.PHONY: clean cleanall images build
+.PHONY: clean cleandoc cleanall images build
 
-build: $(PDFDOC)
+build: cleandoc $(PDFDOC)
 
 clean:
 	#latexmk -c
 	rm -f $(CLEANEXT) *.aux
 
-cleanall: clean
-	rm -f $(PDFIMG) $(PDFDOC)
+cleandoc:
+	rm -f $(PDFDOC)
+
+cleanall: clean cleandoc
+	rm -f $(PDFIMG)
 
 images: $(PDFIMG)
 
