@@ -1,9 +1,10 @@
-# README
+# Manuel AMHE (arts martiaux historiques européens)
 
 L'objectif de ce projet est de créer un manuel complet pour l'étude des arts
-martiaux historiques européens (AMHE).
+martiaux historiques européens (AMHE). Ceux-ci incluent en particulier
+l'escrime médiévale.
 
-## Manuel
+## Manuel, téléchargement et commentaires
 
 La dernière version du texte peut être téléchargée à l'[adresse suivante][1].
 Le manuel principal est diffusé sous la [Licence Art Libre 1.3][2], toutefois
@@ -71,6 +72,6 @@ Les clés des références Bibtex sont typiquement de la forme suivante
 
 [1]: https://www.dropbox.com/s/ga9t604bu94rmox/amhe_manuel.pdf?dl=0
 [2]: http://artlibre.org
-[3]: https://github.com/melsophos/manuel_amhe/issues
+[3]: https://github.com/melsophos/manuel-amhe/issues
 [4]: https://help.github.com/articles/fork-a-repo/
 
