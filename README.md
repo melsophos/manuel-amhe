@@ -6,7 +6,8 @@ l'escrime médiévale.
 
 ## Manuel, téléchargement et commentaires
 
-La dernière version du texte peut être téléchargée à l'[adresse suivante][1].
+La dernière version du texte peut être téléchargée sur le [site du *Chapitre des
+armes*][5] ou bien à l'[adresse suivante][1].
 Le manuel principal est diffusé sous la [Licence Art Libre 1.3][2], toutefois
 les ateliers ne sont pas diffusés sous licence libre et les ateliers restent
 la propriété de leurs auteurs respectifs.
@@ -70,6 +71,7 @@ Les clés des références Bibtex sont typiquement de la forme suivante
     [Author:][Traducteur|Workshop:][:année]:Titre
 
 
+[5]: https://chapitredesarmes.wordpress.com/travaux/
 [1]: https://www.dropbox.com/s/ga9t604bu94rmox/amhe_manuel.pdf?dl=0
 [2]: http://artlibre.org
 [3]: https://github.com/melsophos/manuel-amhe/issues
