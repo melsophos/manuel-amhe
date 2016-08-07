@@ -1,8 +1,17 @@
-amhe_manuel.pdf
+
+amhe_recueil.pdf
 amhe_ateliers.pdf
+amhe_principes.pdf
+
+recueil/amhe_recueil.pdf
+recueil/amhe_ateliers.pdf
+principes/amhe_principes.pdf
 
 syntax: glob
 
-#images/*.pdf
 images/*/*.pdf
+diagrammes/*/*.pdf
+
+*/diagrammes
+*/images
 

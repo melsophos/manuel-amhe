@@ -1,0 +1,245 @@
+\documentclass[10pt, a4paper, oneside, titlepage]{book}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern, textcomp}
+\usepackage[english, french]{babel}
+\usepackage{csquotes}
+
+\usepackage[activate={true,nocompatibility}, final, babel=true
+	tracking=true, kerning=true, spacing=true,
+	factor=1100, stretch=10, shrink=10]{microtype}
+
+\usepackage[top=4cm, bottom=3.5cm, left=3.5cm, right=3.5cm]{geometry}
+% default top=4.5cm, bottom=4cm, left=4.5cm, right=4.5cm
+\usepackage{changepage}
+
+\usepackage{eurosym, xspace}
+\usepackage[nottoc]{tocbibind}
+\usepackage{graphicx, subfig, float}
+\usepackage[multiple]{footmisc}
+\usepackage{authblk}
+\usepackage[backend=bibtex8, citestyle=numeric-comp, maxbibnames=99, sorting=nyt,
+			sortcites=true, firstinits=true]{biblatex}
+% TODO: améliorer le style
+\input{escrime.def}
+
+\usepackage{amsmath, amsfonts, amssymb, siunitx}
+
+\usepackage{makeidx}
+\usepackage[cc]{titlepic}
+
+\usepackage[usenames, dvipsnames]{xcolor}
+\usepackage{framed, mdframed}
+\usepackage[amsmath, hyperref, framed]{ntheorem}
+% \usepackage{amsthm, thmtools}
+
+
+% hyperfootnotes=false
+\usepackage[pdftex, colorlinks=true, breaklinks=true,
+	urlcolor=blue, linkcolor=blue, citecolor=red,
+	pdfcreator={PDFLaTeX}, pdfauthor={Harold Erbin}
+]{hyperref}
+\usepackage[all]{hypcap}
+
+\usepackage[sort&compress, nameinlink, french]{cleveref}
+
+
+\usepackage{escrime}
+
+
+\hypersetup{
+	pdftitle={Arts martiaux historiques - manuel},
+	% pdfkeywords={Mots clés PDF},
+	% pdfsubject={Sujet PDF}
+}
+
+
+\renewcommand{\Affilfont}{\small}
+\newcommand{\email}[1]{\thanks{\href{mailto:#1}{\nolinkurl{#1}}}}
+% \sisetup{group-separator = {,}, separate-uncertainty=true}
+% enable non-breakable space
+\DeclareUnicodeCharacter{00A0}{~}
+\DeclareUnicodeCharacter{202F}{~}
+
+
+% \SetExtraKerning[unit=space]{
+% 		encoding={*}, family={bch}, series={*},
+% 		size={footnotesize, small, normalsize}
+% 	}{
+% 		\textendash={400,400}
+% }
+\SetTracking{encoding={*}, shape=sc}{0}
+% \microtypecontext{spacing=french}
+
+
+\pagestyle{plain}
+\graphicspath{{images/}}
+
+
+\addbibresource{escrime}
+\iffalse
+\bibliography{escrime}
+\fi
+
+\makeindex
+
+
+\title{Arts martiaux historiques -- manuel}
+
+\author[*]{Harold Erbin\email{harold.erbin@gmail.com}}
+\affil[*]{Chapitre des armes, Paris, France}
+\affil[*]{Club d'escrime ancienne, École Normale Supérieure, Paris, France}
+
+\titlepic{\includegraphics[width=0.8\textwidth]{logo_cda.pdf}}
+
+
+\begin{document}
+
+% \pagenumbering{roman}
+\maketitle
+
+
+% \pagenumbering{arabic}
+\setcounter{page}{2}
+
+\thispagestyle{empty}
+\begin{center}
+	\setlength{\baselineskip}{1.5\baselineskip}{\fontsize{12}{14}\selectfont{}
+	Ce texte est diffusé sous la licence libre\\\textbf{Licence Art Libre} :}\\\url{http://artlibre.org/licence/lal/}
+\end{center}
+
+\vspace{\stretch{2}}
+
+\noindent
+% {\setlength{\tabcolsep}{0.5ex}
+\begin{tabular}{ll}
+	Sites du projet : &
+		\url{https://github.com/melsophos/manuel-amhe} \\
+		&
+		\url{https://chapitredesarmes.wordpress.com/travaux} \\
+	Téléchargement : & 
+		\url{https://www.dropbox.com/s/ga9t604bu94rmox/amhe_manuel.pdf}
+\end{tabular}
+% }
+
+% \vspace{\stretch{1}}
+
+
+\clearpage
+\pdfbookmark[1]{\contentsname}{toc}
+\microtypesetup{protrusion=false}
+\tableofcontents
+\microtypesetup{protrusion=true}
+
+
+\input{chapters/introduction}
+
+
+\part{Notions générales}
+\label{part:notions-générales}
+
+\input{principes/intro_escrime}
+\input{principes/structure}
+\input{principes/deplacements}
+\input{principes/attaque_defense}
+\input{principes/concepts_generaux}
+
+
+\part{Combat rapproché}
+
+\input{principes/mains_nues}
+\input{chapters/mains_nues_armes}
+\input{principes/dague}
+% \input{chapters/glima}
+
+
+\part{Épées à une main}
+
+\input{chapters/epee_une_main}
+\input{chapters/messer}
+% \input{chapters/sabre_abordage}
+
+
+\part{Épée longue}
+
+\input{chapters/epee_longue}
+\input{chapters/epee_longue_liechtenauer}
+% diviser
+\input{chapters/epee_longue_italienne}
+
+
+\part{Épée et bouclier}
+
+\input{principes/epee_bocle}
+\input{chapters/epee_bocle_i33}
+\input{chapters/epee_bocle_liegniczer}
+\input{chapters/bouclier_viking_epee}
+% \input{chapters/ecu}
+
+
+\part{Armes d'hast}
+
+\input{chapters/baton_long}
+\input{chapters/baton_long_milieu}
+\input{chapters/lance}
+\input{chapters/pertuisane}
+% \input{chapters/hallebarde}
+% \input{chapters/hache_noble}
+
+
+\part{Rapière}
+
+\input{chapters/rapiere}
+\input{chapters/rapiere_dague}
+
+
+\part{Autres armes}
+
+\input{chapters/baton_court}
+% faucille
+% épée longue en armure ?
+
+
+\part{Arts modernes}
+
+\input{chapters/close_combat}
+% \input{chapters/systema}
+
+
+\part{Applications}
+\label{part:applications}
+
+\input{chapters/combat_libre}
+\input{chapters/armes_tranchantes}
+% \input{chapters/spectacle}
+
+
+% \part{Pédagogie et attitude}
+% \label{part:pédagogie}
+
+
+\appendix
+
+
+\part{Appendices}
+
+\input{principes/conventions}
+\input{chapters/traites}
+\input{chapters/glossaire}
+% part : l'entraînement ?
+\input{chapters/pedagogie}
+\input{chapters/echauffement}
+
+
+\microtypesetup{protrusion=false}
+\input{principes/liste_defs}
+\microtypesetup{protrusion=true}
+
+
+\printbibliography[heading=bibintoc]
+\printindex
+
+
+
+\end{document}

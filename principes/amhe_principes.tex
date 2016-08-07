@@ -6,7 +6,7 @@
 \usepackage[english, french]{babel}
 \usepackage{csquotes}
 
-\usepackage[activate={true,nocompatibility}, final, babel=true
+\usepackage[activate={true,nocompatibility}, final, babel=true,
 	tracking=true, kerning=true, spacing=true,
 	factor=1100, stretch=10, shrink=10]{microtype}
 
@@ -49,7 +49,7 @@
 
 
 \hypersetup{
-	pdftitle={Arts martiaux historiques - manuel},
+	pdftitle={Arts martiaux historiques - principes généraux},
 	% pdfkeywords={Mots clés PDF},
 	% pdfsubject={Sujet PDF}
 }
@@ -85,7 +85,7 @@
 \makeindex
 
 
-\title{Arts martiaux historiques -- manuel}
+\title{Arts martiaux historiques -- principes généraux}
 
 \author[*]{Harold Erbin\email{harold.erbin@gmail.com}}
 \affil[*]{Chapitre des armes, Paris, France}
@@ -146,72 +146,26 @@
 \input{chapters/concepts_generaux}
 
 
-\part{Combat rapproché}
+\part{Armes}
+\label{part:armes}
 
 \input{chapters/mains_nues}
-\input{chapters/mains_nues_armes}
 \input{chapters/dague}
-% \input{chapters/glima}
-
-
-\part{Épées à une main}
-
-\input{chapters/epee_une_main}
-\input{chapters/messer}
-% \input{chapters/sabre_abordage}
-
-
-\part{Épée longue}
-
-\input{chapters/epee_longue}
-\input{chapters/epee_longue_liechtenauer}
-% diviser
-\input{chapters/epee_longue_italienne}
-
-
-\part{Épée et bouclier}
-
+% \input{chapters/epee_une_main}
+% \input{chapters/epee_longue}
 \input{chapters/epee_bocle}
-\input{chapters/epee_bocle_i33}
-\input{chapters/epee_bocle_liegniczer}
-\input{chapters/bouclier_viking_epee}
-% \input{chapters/ecu}
-
-
-\part{Armes d'hast}
-
-\input{chapters/baton_long}
-\input{chapters/baton_long_milieu}
-\input{chapters/lance}
-\input{chapters/pertuisane}
+% \input{chapters/bouclier_manipule}
+% \input{chapters/bouclier_enarmes}
+% \input{chapters/baton_long}
+% \input{chapters/lance}
 % \input{chapters/hallebarde}
-% \input{chapters/hache_noble}
+% \input{chapters/rapiere}
 
 
-\part{Rapière}
+% \part{Applications}
 
-\input{chapters/rapiere}
-\input{chapters/rapiere_dague}
-
-
-\part{Autres armes}
-
-\input{chapters/baton_court}
-% faucille
-% épée longue en armure ?
-
-
-\part{Arts modernes}
-
-\input{chapters/close_combat}
-% \input{chapters/systema}
-
-
-\part{Applications}
-\label{part:applications}
-
-\input{chapters/combat_libre}
-\input{chapters/armes_tranchantes}
+% \input{chapters/combat_libre}
+% \input{chapters/armes_tranchantes}
 % \input{chapters/spectacle}
 
 
@@ -225,21 +179,15 @@
 \part{Appendices}
 
 \input{chapters/conventions}
-\input{appendix/traites}
-\input{appendix/glossaire}
-% part : l'entraînement ?
-\input{appendix/pedagogie}
-\input{appendix/echauffement}
 
 
 \microtypesetup{protrusion=false}
-\input{appendix/liste_defs}
+\input{chapters/liste_defs}
 \microtypesetup{protrusion=true}
 
 
 \printbibliography[heading=bibintoc]
 \printindex
-
 
 
 \end{document}

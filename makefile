@@ -6,7 +6,7 @@
 CLEANEXT=*.fls *.idx *.ind *.ilg *.lof *.lot *.toc *.out *.log *.bcf *.blg *.bbl *-blx.bib *.run.xml *.thm *.synctex.gz *.fdb_latexmk
 
 PDFIMG = $(patsubst %.svg,%.pdf, $(wildcard images/*/*.svg))
-PDFDOC = amhe_manuel.pdf amhe_ateliers.pdf
+PDFDOC = principes/amhe_principes.pdf recueil/amhe_recueil.pdf recueil/amhe_ateliers.pdf
 
 # convert svg to pdf
 %.pdf: %.svg
@@ -14,17 +14,19 @@ PDFDOC = amhe_manuel.pdf amhe_ateliers.pdf
 	@sed -i "\/Group <</,+5d" $@
 
 %.pdf: %.tex $(PDFIMG)
-	latexmk -pdf $<
-	rm -f $(CLEANEXT)
+	latexmk -outdir=$(@D) -pdf $<
+	rm -f $(@D)/$(CLEANEXT)
 
 
 .PHONY: clean cleandoc cleanall images build
 
 build: cleandoc $(PDFDOC)
+	cp $(PDFDOC) .
 
 clean:
 	#latexmk -c
-	rm -f $(CLEANEXT) *.aux
+	rm -f $(addprefix recueil/, $(CLEANEXT) *.aux)
+	rm -f $(addprefix principes/, $(CLEANEXT) *.aux)
 
 cleandoc:
 	rm -f $(PDFDOC)
