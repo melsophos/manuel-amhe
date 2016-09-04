@@ -72,6 +72,7 @@ Afin d'être prêt à changer ses plans, et en particulier à transformer une fe
 
 Une attaque s'accompagne d'un mouvement de jambes qui permet de donner plus de force au mouvement et de sortir de l'axe (définition~\ref{dep:def:sortie-axe}).
 En effet si l'attaque se fait en avançant droit devant il y a le risque d'un coup double si l'adversaire fait de même.
+De plus l'attaque se fait en avançant d'abord l'arme et seulement ensuite le corps : dans le contraire il y a de fortes chances d'exposer le corps à un coup si l'arme ne vient pas gêner l'adversaire en premier lieu.
 
 
 \begin{coup}[Attaque normale]
@@ -142,6 +143,7 @@ Chacune de ses frappes est plus ou moins adaptée selon l'arme utilisée, mais a
 
 
 \begin{coup}[Taille]
+	\label{att:coup:taille}
 	\index{coup!taille}
 	\index{coup!haw|see{coup taille}}
 	\index{haw|see{coup taille}}
@@ -151,6 +153,7 @@ Chacune de ses frappes est plus ou moins adaptée selon l'arme utilisée, mais a
 
 
 \begin{coup}[Estoc]
+	\label{att:coup:estoc}
 	\index{coup!estoc}
 	\index{coup!stich|see{coup estoc}}
 	\index{stich|see{coup estoc}}
@@ -160,6 +163,7 @@ Chacune de ses frappes est plus ou moins adaptée selon l'arme utilisée, mais a
 
 
 \begin{coup}[Entaille]
+	\label{att:coup:entaille}
 	\index{coup!entaille}
 	\index{coup!schnitt|see{coup entaille}}
 	\index{schnitt|see{coup entaille}}
@@ -406,6 +410,7 @@ La cadence peut aussi être accélérée.
 
 
 \begin{exercice}[Série de cinq]
+	\label{att:ex:série-5}
 	\tags{échauffement \\ (solitaire)}
 	\index{echauffement@échauffement!exercice}
 
@@ -422,6 +427,7 @@ La cadence peut aussi être accélérée.
 
 
 \begin{exercice}[Série de huit]
+	\label{att:ex:série-8}
 	\tags{échauffement \\ (solitaire)}
 
 	\obj{Travailler le mouvement de la frappe et la précision.}
@@ -438,10 +444,12 @@ La cadence peut aussi être accélérée.
 
 
 \begin{exercice}[Série avec garde]
+	\label{att:ex:série-garde}
+	\tags{échauffement}
 
 	\obj{Travailler les déplacements en attaquant.}
 
-	\D attend en garde sans bouger pendant que \A exécute les cinq premiers ou l'ensemble des huit coups~\ref{att:coup:série-8}, puis les rôles sont inversés.
+	\D attend dans une garde sans bouger pendant que \A exécute les cinq premiers ou l'ensemble des huit coups~\ref{att:coup:série-8}, puis les rôles sont inversés.
 
 	La garde qui permet de faire travailler au maximum les déplacements est la longue pointe, qui consiste à se tenir en garde avec l'épée droit devant.
 \end{exercice}
@@ -559,6 +567,7 @@ Nous allons décrire les huit gardes de l'escrime moderne qui correspondent aux 
 Ainsi que nous l'avons expliqué plus haut les gardes d'escrime moderne sont faciles à retenir et à désigner, et elles peuvent être effectuées avec différentes armes ce qui en fait un bon point de départ.
 Par la suite nous verrons les gardes historiques adaptées à chaque arme.
 
+% TODO: on parle de parade franche dans cette section
 
 \begin{garde}[Escrime moderne]
 	\label{att:garde:escrime-moderne}
@@ -588,6 +597,18 @@ Avec une arme à deux mains la prime et la seconde se font en levant les mains a
 Le passage de tierce en quarte se fait en pivotant le buste : le bras ne bouge que légèrement pour amener la main sur le côté.
 
 Une parade haute se fait de préférence avec les mains du côté de la jambe arrière : de cette manière la pointe est naturellement tournée vers l'adversaire.
+
+
+% TODO: série de 5 : toute pronation sauf haut-gauche
+\begin{exercice}[Série avec défense]
+	\label{att:ex:série-défense}
+	\tags{échauffement}
+
+	\obj{Travailler les défenses sur toutes les cibles.}
+
+	\A exécute les cinq premiers ou l'ensemble des huit coups~\ref{att:coup:série-8} et \D effectue la défense appropriée à chaque coup.
+	Les rôles sont ensuite inversés.
+\end{exercice}
 
 
 \subsection{Défenses actives}
@@ -722,17 +743,20 @@ L'intérêt de la déviation est de permettre de se protéger à moindre effort 
 	\D doit prendre garde à garder ses doigts serrés (et en particulier le pouce) pour éviter de se blesser.
 \end{exercice}
 
+
 Finalement l'esquive revient à soustraire le corps à l'attaque : l'intérêt étant que l'arme reste disponible pour attaquer immédiatement après ou même pendant l'esquive.
-Toutefois une esquive reste dangereuse et pour cette raison on pourra éventuellement se couvrir avec son arme (c'est-à-dire en la plaçant entre nous et la trajectoire possible de la frappe adverse).
+Si l'esquive nécessite d'abaisser le corps alors le mouvement s'effectue en pliant les jambes et non en courbant le dos.
+Toutefois une esquive reste dangereuse et pour cette raison on pourra éventuellement se couvrir avec son arme (c'est-à-dire en la plaçant entre nous et la trajectoire possible de la frappe adverse), en particulier pour prévenir un changement de direction de l'attaque de l'adversaire.
 Selon la cible les esquives se font de la manière suivante :
 \begin{itemize}
 	\item diagonale à l'épaule : esquive sur le côté d'où vient l'attaque (il est possible de ne bouger qu'un pied) ;
 	\item attaque verticale à la tête : esquive d'un des deux côtés en déplaçant les deux pieds.
 \end{itemize}
+Il n'est pas intéressant de se baisser simplement verticalement car cela ne soustraie pas à une seconde attaque et ne permet pas d'accéder à des cibles plus intéressantes.
 Il faut bouger en premier le pied du côté où l'on va, puis ramener le deuxième en pivotant vers l'arrière (pour maintenir la distance) ou l'avant (pour entrer en contact).
 L'angle par rapport au côté varie entre \ang{45} (mains nues, pour entrer en contact) et \ang{0} (arme longue).
 Il faut adapter la distance en fonction du type de l'arme.
-
+% penser à esquiver en se positionnant face à l'adversaire, pas de dos
 
 \begin{exercice}
 	\tags{mains nues}
@@ -750,6 +774,12 @@ Il faut adapter la distance en fonction du type de l'arme.
 	\A effectue successivement trois attaques sur \D, et \D esquive quand il le souhaite en se baissant.
 \end{exercice}
 
+% TODO: exercice : frappe descendante de \A avec le poing, \D esquive et et lève les bras en protections puis touche à l'épaule des deux mains ; 1030894
+% TODO: exercice : frappe à l'épée de \A, \D esquive et frappe (en vérifiant la distance)
+% TODO: exercice : \D commence en garde basse, frappe à l'épée de \A, \D esquive et vient couvrir par dessus, puis frappe (en vérifiant la distance)
+% TODO: exercice : \D commence en garde basse, frappe à l'épée de \A, \D esquive et couvre en prime/seconde haute, puis frappe (en vérifiant la distance)
+% TODO: exercice : \A et \D se déplace, à un moment l'un lance une attaque verticale avec la main, l'autre esquive
+% TODO: exercice : \A fait une attaque presque courte, \D esquive en reculant/se penchant en arrière
 
 Une parade franche ou une absorption peuvent être mise à profit pour accrocher l'arme adverse : il s'agit de l'amener dans une position qui nous permet de la contrôler plus facilement (typiquement en coinçant le faible dans les quillons).
 
