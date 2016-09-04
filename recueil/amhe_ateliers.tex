@@ -3,12 +3,19 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern, textcomp}
-\usepackage[french]{babel}
+\usepackage[english, french]{babel}
 \usepackage{csquotes}
 
-\usepackage[top=4cm,bottom=4cm,left=3.5cm,right=3.5cm]{geometry}
-% default top=4.5cm,bottom=4cm,left=4.5cm,right=4.5cm
+\usepackage[activate={true,nocompatibility}, final, babel=true,
+	tracking=true, spacing=true, %kerning=true,
+	factor=1100, stretch=10, shrink=10]{microtype}
+
+\usepackage[heightrounded, top=4cm, bottom=3.5cm, left=3.5cm, right=3.5cm,
+			marginparsep=0.5cm%, marginparwidth=4cm
+			]{geometry}
+% default top=4.5cm, bottom=4cm, left=4.5cm, right=4.5cm
 \usepackage{changepage}
+\usepackage{marginnote}
 
 \usepackage{eurosym, xspace}
 \usepackage[nottoc]{tocbibind}
@@ -22,17 +29,20 @@
 
 \usepackage{amsmath, amsfonts, amssymb, siunitx}
 
+% \usepackage{makeidx}
 \usepackage[cc]{titlepic}
 \usepackage{xr-hyper}
 
 \usepackage[usenames, dvipsnames]{xcolor}
 \usepackage{framed, mdframed}
 \usepackage[amsmath, hyperref, framed]{ntheorem}
+% \usepackage{amsthm, thmtools}
+
 
 % hyperfootnotes=false
 \usepackage[pdftex, colorlinks=true, breaklinks=true,
 	urlcolor=blue, linkcolor=blue, citecolor=red,
-	filecolor=blue, pdfauthor={Harold Erbin}
+	pdfcreator={PDFLaTeX}, pdfauthor={Harold Erbin}
 ]{hyperref}
 \usepackage[all]{hypcap}
 
@@ -90,25 +100,49 @@
 \clearpage
 \setcounter{page}{2}
 
-\hrule
-\pdfbookmark[1]{\contentsname}{toc}
-\tableofcontents
-\bigskip
-\hrule
+\thispagestyle{empty}
+\begin{center}
+	\setlength{\baselineskip}{1.5\baselineskip}{\fontsize{12}{14}\selectfont{}
+	Copyright : Les ateliers restent la propriété de leurs auteurs respectifs. \\
+	Le reste du texte est diffusé sous la licence libre \\
+	\textbf{Licence Art Libre} :} \\
+	\url{http://artlibre.org/licence/lal/}
+\end{center}
 
-\vspace{\stretch{1}}
+\vspace{\stretch{2}}
+
+\noindent
+% {\setlength{\tabcolsep}{0.5ex}
+\begin{tabular}{ll}
+	Sites du projet : &
+		\url{https://github.com/melsophos/manuel-amhe} \\
+		&
+		\url{https://chapitredesarmes.wordpress.com/travaux} \\
+	Téléchargement : & 
+		\url{https://www.dropbox.com/s/1dpoy35uxz1gaj2/amhe_ateliers.pdf}
+\end{tabular}
+% }
+
+% \vspace{\stretch{1}}
+
+
+\clearpage
+\pdfbookmark[1]{\contentsname}{toc}
+\microtypesetup{protrusion=false}
+\tableofcontents
+\microtypesetup{protrusion=true}
 
 % \begin{center}
-	{\setlength{\baselineskip}{1.5\baselineskip}\fontsize{12}{14}\selectfont{}
-	Copyright : Les ateliers restent la propriété de leurs auteurs respectifs.} 
+	
 % \end{center}
 
 \newpage
 
-\input{ateliers/introduction}
-\input{ateliers/structure}
-\input{ateliers/epee_longue}
-\input{ateliers/messer}
+\include{ateliers/introduction}
+
+\include{ateliers/structure}
+\include{ateliers/epee_longue}
+\include{ateliers/messer}
 
 
 \printbibliography[heading=bibintoc]

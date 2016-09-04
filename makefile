@@ -17,6 +17,7 @@ PDFDOC = principes/amhe_principes.pdf recueil/amhe_recueil.pdf recueil/amhe_atel
 	latexmk -outdir=$(@D) -pdf $<
 	rm -f $(@D)/$(CLEANEXT)
 
+recueil/amhe_ateliers.pdf: recueil/amhe_recueil.pdf
 
 .PHONY: clean cleandoc cleanall images build
 
