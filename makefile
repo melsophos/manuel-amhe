@@ -13,13 +13,11 @@ PDFDOC = principes/amhe_principes.pdf recueil/amhe_recueil.pdf recueil/amhe_atel
 	@inkscape -D -A $@ $<
 	@sed -i "\/Group <</,+5d" $@
 
-%.pdf: %.tex $(PDFIMG)
+%.pdf %.aux: %.tex $(PDFIMG)
 	latexmk -outdir=$(@D) -pdf $<
 	rm -f $(@D)/$(CLEANEXT)
 
-recueil/amhe_ateliers.pdf: recueil/amhe_recueil.pdf
-
-.PHONY: clean cleandoc cleanall images build
+.PHONY: clean cleandoc cleanall images build recueil principes ateliers
 
 build: cleandoc $(PDFDOC)
 	cp $(PDFDOC) .
@@ -36,6 +34,12 @@ cleanall: clean cleandoc
 	rm -f $(PDFIMG)
 
 images: $(PDFIMG)
+
+principes: principes/amhe_principes.pdf
+recueil: recueil/amhe_recueil.pdf
+ateliers: recueil/amhe_ateliers.pdf
+
+recueil/amhe_ateliers.pdf: recueil/amhe_recueil.aux
 
 #@for file in **/*.svg ; do \
 #	inkscape -D -A "$${file%.*}.pdf" "$$file" ;
