@@ -72,7 +72,7 @@ Les clés des références Bibtex sont typiquement de la forme suivante
 
 
 [5]: https://chapitredesarmes.wordpress.com/travaux/
-[1]: https://www.dropbox.com/s/ga9t604bu94rmox/amhe_manuel.pdf?dl=0
+[1]: https://www.dropbox.com/sh/vb1e2ltungq1yj9/AABeYtvJWl7p-u51uncn8a9Ua
 [2]: http://artlibre.org
 [3]: https://github.com/melsophos/manuel-amhe/issues
 [4]: https://help.github.com/articles/fork-a-repo/
