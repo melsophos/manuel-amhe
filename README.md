@@ -1,8 +1,10 @@
 # Manuel AMHE (arts martiaux historiques européens)
 
-L'objectif de ce projet est de créer un manuel complet pour l'étude des arts
-martiaux historiques européens (AMHE). Ceux-ci incluent en particulier
-l'escrime médiévale.
+L'objectif de ce projet est de mettre à disposition un ensemble de documents
+pour l'étude des arts martiaux historiques européens (AMHE) :
+- Principes : principes généraux de l'escrime (structure et armes).
+- Recueil : recueil d'exercices et de techniques (inclut les Principes).
+- Ateliers : suggestions d'ateliers (hyperliens avec le Recueil).
 
 ## Manuel, téléchargement et commentaires
 
